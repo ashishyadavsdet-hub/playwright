@@ -12,7 +12,7 @@ test('get started link', async ({ page }) => {
 
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
-  await console.log('Clicked on Get started links');
+  await console.log('Clicked on Get started link');
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
