@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  },
+  "scripts": {
+    "test_runner": "npx playwright test"
+  }
+}
